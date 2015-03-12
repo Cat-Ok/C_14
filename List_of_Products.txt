@@ -1,0 +1,12 @@
+
+Fish
+44,3
+Fresh
+
+Meat
+45,7
+Fresh
+
+Chicken
+32,5
+Fresh
