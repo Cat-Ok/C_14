@@ -213,12 +213,10 @@ namespace C_14
             }
         }
 
-        private void Change_SName_CProducts_Click(object sender, EventArgs e)
-        {
-        }
-
+        
         private void Change_SFresh_CProducts_Click(object sender, EventArgs e)
         {
+            //changing Fresh
             if ((btn_Information_Show.Enabled == true) || (btn_Foto_Show.Text == "Забрати фотографію"))
             {
                 string str = Convert.ToString(Cproducts_Fresh_Show.Text);
