@@ -40,7 +40,6 @@
             this.label4 = new System.Windows.Forms.Label();
             this.list_of_CProducts = new System.Windows.Forms.ListBox();
             this.btn_Next = new System.Windows.Forms.Button();
-            this.Change_SName_CProducts = new System.Windows.Forms.Button();
             this.Change_PriceCProducts = new System.Windows.Forms.Button();
             this.Change_SFresh_CProducts = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pct_Box)).BeginInit();
@@ -144,16 +143,6 @@
             this.btn_Next.UseVisualStyleBackColor = true;
             this.btn_Next.Click += new System.EventHandler(this.btn_Next_Click);
             // 
-            // Change_SName_CProducts
-            // 
-            this.Change_SName_CProducts.Location = new System.Drawing.Point(473, 9);
-            this.Change_SName_CProducts.Name = "Change_SName_CProducts";
-            this.Change_SName_CProducts.Size = new System.Drawing.Size(25, 20);
-            this.Change_SName_CProducts.TabIndex = 13;
-            this.Change_SName_CProducts.Text = "N";
-            this.Change_SName_CProducts.UseVisualStyleBackColor = true;
-            this.Change_SName_CProducts.Click += new System.EventHandler(this.Change_SName_CProducts_Click);
-            // 
             // Change_PriceCProducts
             // 
             this.Change_PriceCProducts.Location = new System.Drawing.Point(474, 38);
@@ -183,7 +172,6 @@
             this.ClientSize = new System.Drawing.Size(511, 188);
             this.Controls.Add(this.Change_SFresh_CProducts);
             this.Controls.Add(this.Change_PriceCProducts);
-            this.Controls.Add(this.Change_SName_CProducts);
             this.Controls.Add(this.btn_Next);
             this.Controls.Add(this.list_of_CProducts);
             this.Controls.Add(this.label4);
@@ -220,7 +208,6 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.ListBox list_of_CProducts;
         private System.Windows.Forms.Button btn_Next;
-        private System.Windows.Forms.Button Change_SName_CProducts;
         private System.Windows.Forms.Button Change_PriceCProducts;
         private System.Windows.Forms.Button Change_SFresh_CProducts;
     }
